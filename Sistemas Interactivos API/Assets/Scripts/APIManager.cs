@@ -8,7 +8,7 @@ public class APIManager : MonoBehaviour
 {
     [SerializeField] private List<RawImage> RawImage;
     private string RickAndMortyApi = "https://rickandmortyapi.com/api";
-    private string ServerApiPath = "https://my-json-server.typicode.com/SkarddY/Sistemas_Interactivos_A1";
+    private string ServerApiPath = "https://my-json-server.typicode.com/SkarddY/SistemasInteractivos_A1";
 
     private List<int> RandomNumbers = new List<int>();
     public int[] cards;
